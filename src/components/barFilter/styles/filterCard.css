@@ -1,0 +1,26 @@
+.container__filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    position: relative;
+    top: 35px;
+}
+
+.filter__input {
+    width: 50%;
+    height: 45px;
+    padding: 5px 15px;
+}
+
+.filter__btn {
+    background: coral;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    height: 45px;
+    line-height: 1;
+    width: 90px;
+    position: relative;
+    right: 5px;
+}
