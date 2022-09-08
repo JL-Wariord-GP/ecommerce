@@ -16,6 +16,7 @@
 }
 .login__title {
   margin-bottom: 20px;
+  color: #002e39;
 }
 .login__div {
   display: flex;
