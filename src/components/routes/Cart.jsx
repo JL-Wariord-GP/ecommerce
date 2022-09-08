@@ -1,6 +1,5 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import { useSelector } from 'react-redux'
 import getConfig from '../../utils/getConfig'
 import ProductCartInfo from '../cart/ProductCartInfo'
 import './styles/cart.css'

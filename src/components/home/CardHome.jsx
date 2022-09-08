@@ -10,7 +10,6 @@ const CardHome = ({product}) => {
   const handleClick = () => {
     navigate(`/product/${product.id}`)
   }
-// función para agregar un producto al cart
   const handleAddCart = e => {
     e.stopPropagation()
     const URL = 'https://ecommerce-api-react.herokuapp.com/api/v1/cart'
